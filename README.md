@@ -63,6 +63,7 @@ while True:
  c.send("Not Found".encode())
 ```
 Server Program
+```
 import socket
 s=socket.socket()
 s.connect(('localhost',9000))
